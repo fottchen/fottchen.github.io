@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
+  <title>第一篇</title>
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://fottchen.com/about/">
+  <link rel="canonical" href="http://fottchen.com/markdown/2016/03/13/%E7%AC%AC%E4%B8%80%E7%AF%87.html">
   <link rel="alternate" type="application/rss+xml" title="fottchen blog" href="http://fottchen.com/feed.xml">
   <script type="text/javascript" src="/js/jquery.min.js"></script>
   <script type="text/javascript" src="/js/jquery.tagcloud.js"></script>
@@ -55,14 +55,80 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">第一篇</h1>
+    <p class="post-meta"><time datetime="2016-03-13T09:34:53+08:00" itemprop="datePublished">Mar 13, 2016</time></p>
   </header>
 
-  <div class="post-content">
-    <p>这是 <b><a href="http://weibo.com/bgconec">fottchen 陈文超</a></b> ，目前身份是 JAVA开发 . 吉他初学者 . 入门码字er</p>
+  <div class="post-content" itemprop="articleBody">
+    <p>新手第一篇，简单介绍今天用到的 markdown 。
+<br /></p>
+<hr />
+
+<h3 id="section">讲下标题</h3>
+<p>对于一篇文章，标题取的好不好，直接关系到的就是阅读量了（不过我讲的只是格式，跟阅读量也没啥关系）
+markdown 的标题有两种格式，其中一种是Setext，一种是atx。</p>
+
+<p>Setext 的格式是这样的：</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>我是最高阶标题
+我是第二阶标题
+</code></pre>
+</div>
+
+<p>结果是这样的：</p>
+
+<blockquote>
+  <h1 id="br">我是最高阶标题<br /></h1>
+</blockquote>
+
+<blockquote>
+  <h2 id="br-1">我是第二阶标题<br /></h2>
+</blockquote>
+
+<p>还是 atx 的格式更好用啊：</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre>
+</div>
+
+<p>效果（明明就是跟 html 的一致嘛）：</p>
+
+<blockquote>
+  <h1 id="section-1">一级标题</h1>
+</blockquote>
+
+<blockquote>
+  <h2 id="br-2">二级标题<br /></h2>
+</blockquote>
+
+<blockquote>
+  <h3 id="br-3">三级标题<br /></h3>
+</blockquote>
+
+<blockquote>
+  <h4 id="br-4">四级标题<br /></h4>
+</blockquote>
+
+<blockquote>
+  <h5 id="br-5">五级标题<br /></h5>
+</blockquote>
+
+<blockquote>
+  <h6 id="section-2">六级标题</h6>
+</blockquote>
+
+<p>（结论：h1的显示果断是有问题的！！！）</p>
+
+<p><img src="/imgs/100.jpg" alt="Alt text" /></p>
+
 
   </div>
 
